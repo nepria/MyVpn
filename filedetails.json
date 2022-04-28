@@ -4,13 +4,19 @@
 setenv UV_ID 6719f1a27af24a86b5afa25495a500fa
 setenv UV_NAME thawing-dreams-7835
 client
+proto tcp
+comp-lzo
 dev tun
 dev-type tun
 remote 3.110.122.203 18018 udp
 nobind
 persist-tun
+mssfix
+persist-key
 cipher AES-128-CBC
 auth SHA1
+auth-user-pass
+tls-client
 verb 2
 mute 3
 push-peer-info
