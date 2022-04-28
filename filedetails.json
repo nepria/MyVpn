@@ -1,8 +1,8 @@
 {
 "ovpn_file":[
   {"id":0,"file":
-setenv UV_ID 34bc194cacc54bd4b2bdc03b659c16e3
-setenv UV_NAME patient-stars-2839
+setenv UV_ID 6719f1a27af24a86b5afa25495a500fa
+setenv UV_NAME thawing-dreams-7835
 client
 dev tun
 dev-type tun
@@ -23,7 +23,6 @@ sndbuf 393216
 rcvbuf 393216
 remote-cert-tls server
 comp-lzo no
-auth-user-pass
 key-direction 1
 <ca>
 -----BEGIN CERTIFICATE-----
