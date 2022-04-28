@@ -4,6 +4,7 @@
 setenv UV_ID 6719f1a27af24a86b5afa25495a500fa
 setenv UV_NAME thawing-dreams-7835
 client
+setenv CLIENT_CERT 0
 proto tcp
 comp-lzo
 dev tun
