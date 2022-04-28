@@ -1,23 +1,16 @@
 {
 "ovpn_file":[
   {"id":0,"file":"
-setenv UV_ID 6719f1a27af24a86b5afa25495a500fa
-setenv UV_NAME thawing-dreams-7835
+   setenv UV_ID 0125ce93630449e0bb5d3ce7c35ce2d9
+setenv UV_NAME autumn-plains-6762
 client
-setenv CLIENT_CERT 0
-proto tcp
-comp-lzo
 dev tun
 dev-type tun
 remote 3.110.122.203 18018 udp
 nobind
 persist-tun
-mssfix
-persist-key
 cipher AES-128-CBC
 auth SHA1
-auth-user-pass
-tls-client
 verb 2
 mute 3
 push-peer-info
@@ -30,6 +23,7 @@ sndbuf 393216
 rcvbuf 393216
 remote-cert-tls server
 comp-lzo no
+auth-user-pass
 key-direction 1
 <ca>
 -----BEGIN CERTIFICATE-----
@@ -87,6 +81,7 @@ b546516ec3fd9edc45fbee402e62c309
 1f2c5b785b9f6aae7326df20f8c357e8
 0929487243744cdd6f96fd5bb8875bf7
 -----END OpenVPN Static key V1-----
-</tls-auth>"},
+</tls-auth>
+"},
   ]
 }
