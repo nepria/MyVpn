@@ -6,7 +6,7 @@ setenv UV_NAME patient-stars-2839
 client
 dev tun
 dev-type tun
-remote 13.235.81.245 18018 udp
+remote 3.110.122.203 18018 udp
 nobind
 persist-tun
 cipher AES-128-CBC
