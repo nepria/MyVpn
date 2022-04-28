@@ -1,8 +1,6 @@
 {
 "ovpn_file":[
   {"id":0,"file":"
-   setenv UV_ID 0125ce93630449e0bb5d3ce7c35ce2d9
-setenv UV_NAME autumn-plains-6762
 client
 dev tun
 dev-type tun
